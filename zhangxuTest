@@ -1,0 +1,7 @@
+Pod::Spec.new do |podTest|
+podTest.name = 'PodTest'
+podTest.version = '1.0.0'
+podTest.license = 'MIT'
+podTest.summary = 'this is my test'
+podTest.author = {'zhangxu' => 1944154449@qq.com}
+podTest.ios.deployment_tagert = '8.0'

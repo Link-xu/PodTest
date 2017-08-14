@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MBProgressHUD.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
-
+- (void)setup {
+    self.view.backgroundColor = [UIColor whiteColor];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
