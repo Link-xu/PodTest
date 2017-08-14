@@ -19,6 +19,8 @@
     [super viewDidLoad];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
+
+#pragma setup
 - (void)setup {
     self.view.backgroundColor = [UIColor whiteColor];
 }
